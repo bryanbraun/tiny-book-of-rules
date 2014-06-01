@@ -1,4 +1,4 @@
-# Tiny Drupal Books: The Tiny Book of Rules
+# The Tiny Book of Rules
 
 This is a short book about the Drupal Rules module.
 
