@@ -8,4 +8,4 @@ For most action parameters, it is possible to switch between **direct input**, m
 
 The data object site is always available in Rules, containing global site data such as the account for the acting user, the site name, and some other information.
 
-Finally, it should be noted that field values are read- and writable **only if Rules can be certain that the relevant entity has that field**. If working with a node, for example, a field will only appear if conditions have been set that limits the rule to selected content types. (See [using conditions](4-using-conditions.md) for more information.) If the entity doesn’t have separate bundles – such as users – Rules can access the fields right away.
+Finally, it should be noted that field values are read- and writable **only if Rules can be certain that the relevant entity has that field**. If working with a node, for example, a field will only appear if conditions have been set that limits the rule to selected content types (see [using conditions](4-using-conditions.md) for more information). If the entity doesn’t have separate bundles – such as users – Rules can access the fields right away.
