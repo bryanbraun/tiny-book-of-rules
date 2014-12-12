@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Useful additional modules | The Tiny (Drupal) Book of Rules</title>
+
+    <!-- Styles and fonts -->
+    <link href="../themes/epsilon/stylesheets/epsilon.css" rel="stylesheet" type="text/css" />
+    <link href="../themes/epsilon/stylesheets/syntax.css" rel="stylesheet" type="text/css" />
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700|Noticia+Text:400,400italic,700,700italic&subset=latin,latin-ext,vietnamese' rel='stylesheet' type='text/css'>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <script src="../themes/epsilon/javascripts/modernizr.js" type="text/javascript"></script>
+  </head>
+
+  <body class="x1 epsilon">
+    <div class="page-wrapper">
+
+      <a id="menu-toggle" class="menu-toggle" href="#sidr"><span class="bitcon-list"></span><span class="menu-toggle-text">Toggle Menu</span></a>
+      <header class="page-header" role="banner">
+<a class="invisilink" href="../">            <span class="book-title">The Tiny (Drupal) Book of Rules</span>
+</a>        <span class="book-author">by Johan Falk</span>
+      </header>
+
+        <div class="content-wrapper clearfix">
+
+          <!--[if lt IE 7]>
+              <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+          <![endif]-->
+
+          <section class="main-content" role="main">
+            <div class="main-content-source">
+              <h1>Useful additional modules</h1>
+
+<p>There are a number of modules taking advantage of Rules as a framework, or providing new actions, conditions and plugins. The most notable are:</p>
+
+<ul>
+<li>Rules Scheduler. This module is included in the Rules project, and allows scheduling components to be evaluated at a future point in time. The module can for example be used to schedule content deletion, upgrading of user accounts, or managing recurring e-mails.</li>
+<li>Views Bulk Operations (VBO). This module extends Views and allows users to perform actions on selected rows. Apart from some base-level actions, Rules components may be used as actions by VBO. An equally useful feature of VBO is that it allows calling Views from Rules configuration, to load a list of entities listed by Views.</li>
+<li>Rules Bonus Pack. This module serves as an experimental lab for new Rules functionality, and provides a number of new actions and conditions. It also allows using condition components as CTools access plugins, as well as providing a new component type used for validating and modifying arguments (contextual filter values) in Views.</li>
+<li>Rules Link. This module can be used to attach links to entities, and firing rule sets when these links are clicked. Links can also be rendered using Views, and link visibility can be controlled by condition sets.</li>
+</ul>
+
+            </div>
+            <nav class="main-content-nav clearfix" role="navigation">
+              <ul>
+                <li><a class="previous" href="6-components.html">Previous</a></li>
+                <li><a class="next" href="8-debugging-rules-configuration.html">Next</a></li>
+              </ul>
+            </nav>
+          </section>
+
+          <aside id="sidr" class="aside-content" role="complementary">
+            <div class="aside-wrapper">
+
+              <div class="block table-of-contents">
+                <h3>Table of Contents</h3>
+                <nav role="navigation">
+                  <ul>
+                    <li class='child '><a href="../">This is Rules</a></li><li class='parent'><span class='parent-label'>1. Rules in Site Building</span><ul><li class='child '><a href="1-using-actions.html">Using actions</a></li><li class='child '><a href="2-data-in-rules.html">Data in Rules</a></li><li class='child '><a href="3-using-events.html">Using events</a></li><li class='child '><a href="4-using-conditions.html">Using Conditions</a></li><li class='child '><a href="5-lists-and-loops.html">Lists and loops</a></li><li class='child '><a href="6-components.html">Components</a></li><li class='child active'><a href="7-useful-additional-modules.html">Useful additional modules</a></li><li class='child '><a href="8-debugging-rules-configuration.html">Debugging Rules configuration</a></li></ul></li><li class='parent'><span class='parent-label'>2. Coding for Rules</span><ul><li class='child '><a href="../2.-Coding-for-Rules/1-extending-rules.html">Extending rules</a></li><li class='child '><a href="../2.-Coding-for-Rules/2-writing-conditions.html">Writing conditions</a></li><li class='child '><a href="../2.-Coding-for-Rules/3-writing-actions.html">Writing actions</a></li><li class='child '><a href="../2.-Coding-for-Rules/4-declaring-and-invoking-events.html">Declaring and invoking events</a></li><li class='child '><a href="../2.-Coding-for-Rules/5-invoking-components-programmatically.html">Invoking components programmatically</a></li><li class='child '><a href="../2.-Coding-for-Rules/6-extending-and-altering-data-types.html">Extending and altering data types</a></li><li class='child '><a href="../2.-Coding-for-Rules/7-providing-new-entities-and-data-types.html">Providing new entities and data types</a></li></ul></li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="block open-source">
+                <h3>This book is open source</h3>
+                <p>The source of this book is <a href="https://github.com/bryanbraun/tiny-book-of-rules">hosted on Github</a>. Go, ahead. Check it out.</p>
+              </div>
+
+              <!--
+              <div class="block downloads">
+                <h3>Downloads</h3>
+                <p>Download this book in
+                    <a href="#">PDF</a>, <a href="#">mobi</a>, and <a href="#">epub</a>
+                  form for free.
+                </p>
+              </div>
+
+              <div class="block translations">
+                <h3>Book translations</h3>
+                <p>This book is translated into
+                  <a href="#">Spanish</a>
+                  and <a href="#">English</a>.
+                  You can help with more translations <a href="https://github.com/bryanbraun/tiny-book-of-rules">on Github</a>.
+                </p>
+              </div>
+              -->
+
+              <div class="block license">
+                <h3>License</h3>
+                <p>This book is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike</a> license.</p>
+              </div>
+
+            </div><!-- end aside-wrapper -->
+          </aside>
+
+        </div><!-- end content-wrapper -->
+
+      <footer class="page-footer">
+        <div class="footer-wrapper">
+          <small class="small-text">Made with <a href="http://bitbooks.cc">Bitbooks</a></small>
+        </div><!-- end footer-wrapper -->
+      </footer>
+
+    </div><!-- end page-wrapper -->
+
+    <!-- include scripts just before the close of the body tag -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../themes/epsilon/javascripts/jquery.sidr.min.js" type="text/javascript"></script>
+    <script src="../themes/epsilon/javascripts/anchor.min.js" type="text/javascript"></script>
+    <script src="../themes/epsilon/javascripts/epsilon.js" type="text/javascript"></script>
+  </body>
+</html>
